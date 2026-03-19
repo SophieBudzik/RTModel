@@ -10,7 +10,7 @@ Each microlensing event should have its own dedicated directory somewhere on you
 
 This directory should contain a subdirectory named `/Data`.
 
-The `/Data` directory should contain all photometric time series available for the analysis. Each series (data collected by a single telescope in one filter) corresponds to one file with extension  `.dat`.
+The `/Data` directory should contain all photometric time series available for the analysis. Each series (data collected by a single telescope in one filter) corresponds to one file with extension  `.dat`. File names ending with a number correspond to observations from a space telescope.
 
 ## Photometry files
 
