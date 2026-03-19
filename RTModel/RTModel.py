@@ -404,6 +404,7 @@ class RTModel:
             print('\033[30;41m! Error in finalization!\033[m')
             print('\033[30;43m'+e.stdout+'\033[m')
             print('\033[30;43m'+e.stderr+'\033[m')
+			print('\033[30;41m If you didn't mean to use satellite data change the name of the photometry file.\033[m')
             print('\033[30;41m! Program stopped here!\033[m')
             self.done = True
 
